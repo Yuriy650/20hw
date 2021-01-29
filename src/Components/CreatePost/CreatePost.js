@@ -16,7 +16,7 @@ export const YODA_POST = "https://th.bing.com/th/id/OIP.uQEGqKR6Rn2e0PAR8rHZsgHa
 const CreatePost = (props) => {
     const paperStyle = {
         padding: 20, height: '75vh', width: 600,
-        margin: '20px auto', background: 'white'
+        margin: '20px auto', background: '#ffe107'
     };
     const textFieldStyle = {margin: '15px auto'};
     const nameStyle = {width: 296, margin: '15px 2px', padding: 0};

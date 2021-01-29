@@ -8,6 +8,11 @@ import {Avatar, Grid} from "@material-ui/core";
 import Like from "../Like/Like";
 function Post({state, countValue, countLikes}) {
     console.log(state);
+    const avatarStyle = {
+        background: '#12eeff',
+        padding: '2px',
+        height: '30px'
+    }
         return (
        <div>
            {state.authors.map((items) => {
@@ -25,12 +30,10 @@ function Post({state, countValue, countLikes}) {
                        <p className='content'> {items.content}</p>
                        <img className='postImage' src={items.image} alt=''/>
                        <Grid align={'left'}>
-                           <Avatar className="avatarStyle" onClick={() => countLikes()}>
-                               <FavoriteRoundedIcon />
+                           <Avatar   onClick={() => countLikes()}>
+                               <FavoriteRoundedIcon color="secondary" fontSize="small"/>
                                {countValue.count}
-
                            </Avatar>
-
                        </Grid>
                    </div>
                </div>

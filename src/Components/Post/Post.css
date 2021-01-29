@@ -2,7 +2,7 @@
     width: 550px;
     height: 550px;
     margin: 20px 20px 20px 50px;
-    background-color: cornflowerblue;
+    background-color: #12eeff;
     border-radius: 10px;
 }
 .ava {
@@ -40,6 +40,6 @@ width: 100px;
     margin-left: 50px;
 }
 .avatarStyle {
-    background-color: cornflowerblue;
+    background-color: #12eeff;
     padding: 10px
 }
